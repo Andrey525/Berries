@@ -1,0 +1,151 @@
+body {
+    background-color: #fff;
+    color: grey;
+    margin: 0;
+    font-family: Nanum Myeongjo, sans-serif;
+    font-size: 20px;
+    margin: auto 50px;
+}
+
+.logo {
+    color: #e9355f;
+    font-family: Kaushan Script, sans-serif;
+    font-size: 64px;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1230px;
+    width: 95%;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    display: inline-block;
+}
+
+.item-link {
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 24px;
+    line-height: 14px;
+    color: #ff8c00;
+}
+
+.main-nav {
+    display: flex;
+    margin-top: 50px;
+}
+
+.secondary-nav {
+    margin-top: 40px;
+    display: flex;
+    border: 2px solid purple;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    min-width: 150px;
+    height: 45px;
+}
+
+.secondary-nav .item-link {
+    color: #ad1475;
+    margin: 0;
+}
+
+.korzina {
+    max-width: 30px;
+    padding-right: 5px;
+}
+
+.main {
+    font-size: 48px;
+    margin: 0;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: Marck Script;
+    /* max-width: 280px; */
+    line-height: 50px;
+    color: #c71585;
+}
+
+.some-berries {
+    max-width: 500px;
+    /* padding-left: 400px; */
+    /* margin-top: -250px; */
+    top: 100px;
+    right: 150px;
+    position: absolute;
+}
+
+.lozung {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    min-width: 260px;
+    min-height: 60px;
+    text-align: center;
+    border: 2px solid rgb(179, 33, 33);
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #e9355f;
+    font-size: 32px;
+    font-family: Source Serif Pro;
+    padding: 6px 24px;
+    margin-left: -5px;
+}
+
+.title-svoistva {
+    margin-top: 220px;
+    justify-content: center;
+    text-align: center;
+    font-family: Source Serif Pro;
+    color: #e9355f;
+    font-size: 44px;
+    word-spacing: 10px;
+    margin-bottom: 0;
+}
+
+.table {
+    margin: 60px auto;
+    border-spacing: 80px 0;
+}
+
+.table-column {
+    align-items: center;
+    text-align: center;
+    color: rgb(59, 47, 21);
+    font-family: Marck Script;
+    font-size: 24px;
+}
+
+.image {
+    max-width: 250px;
+}
+
+.table-column-2 {
+    color: #e9355f;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    max-height: 20px;
+}
+
+.table-column-3 {
+    max-height: 150px;
+}
